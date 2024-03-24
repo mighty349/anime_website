@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime-LOG</title>
+    <link rel="stylesheet" href="/styles/view.css">
+</head>
+<body>
+    <div class="home">
+        <a href="/home"><button>Home</button></a>
+        <a href="/log"><button class="log">LOGOUT</button></a>
+       </div>
+   <div class="container">
+            <img src="<%= url %>" alt="sorry">
+        <div class="description">
+          <div class="title">
+               <h1><%= title %></h1>
+            </div>
+          <div class="jonor">
+            <p><b>Type:</b><%= type %></p>
+            <p><b>Genre:</b>:<%=genre%></p>
+            <p><b>Source:</b><%=source%></p>
+            <p><b>Episodes:</b><%=episodes%></p>
+            <p><b>Status:</b><%=status%></p>
+            <p><b>Released:</b><%=released%></p>
+            <p><b>Duration:</b><%=duration%></p>
+            <p></p>
+          </div>
+          <div class="synopsis">
+            <%if(synopsis!=null) {%>
+          <p> <b>Synopsis:</b> <%= synopsis %></p>
+          <%}%>
+          </div>
+        </div>
+   </div>
+</body>
+</html>

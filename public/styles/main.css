@@ -1,0 +1,83 @@
+body{
+    background:url("/images/naruto-anime-boy-art.jpg");
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh;
+}
+.title
+{
+    position: relative;
+    color: yellow;
+}
+.log
+{
+    position: absolute;
+    right: 3em;
+    top: 0.9em;
+    margin-bottom: 1em;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f14b32;
+    color: rgb(247, 247, 29);
+    transition: transform 0.8s;
+}
+
+h1{
+    text-align: center;
+    border: black;
+    background: transparent;
+    color: white;
+    padding:0;
+    margin: 0;
+    color: rgb(234, 234, 1);
+
+}
+.buttons
+{
+    position: absolute;
+    top: 5em;
+    left: 5em;
+    padding: 10px;
+    
+}
+.buttons button{
+    display:block;
+    margin-bottom: 3.5em;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f14b32;
+    color: rgb(247, 247, 29);
+    transition: transform 0.8s;
+    font-size: 1em;
+    width: 200px;
+
+}
+button:hover{
+    transform: scale(1.1);
+    background-color:rgb(247, 247, 29);
+    color: #f14b32;
+}
+@media (max-width:620px){
+ .log{
+    top: 3em;
+    right: 1em;
+ }
+ .buttons{
+    left: 2em;
+
+ }
+ body{
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+ }
+}
+

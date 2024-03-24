@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character</title>
+    <link rel="stylesheet" href="/styles/char.css">
+</head>
+<body>
+    <div class="home">
+        <a href="/home"><button>Home</button></a>
+        <a href="/log"><button class="log">LOGOUT</button></a>
+       </div>
+    <div class="container">
+        <div class="name">
+            <h1><%=name%></h1>
+        </div>
+        <div class="image">
+         <img src="<%=src%>" alt="sorry">
+        </div>
+        <div class="desc">
+            <% if(nickname!=null){ %>
+                <p><b>Nickname:</b><%= nickname%></p>
+            <% } %>
+            <p><b>About:</b> <%=about%></p>
+        </div>
+    </div>
+</body>
+</html>

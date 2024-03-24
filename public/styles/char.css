@@ -1,0 +1,71 @@
+/* Reset default margin and padding */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+.home{
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+/* Apply crimson theme */
+body {
+    background-color: crimson;
+    color: white; /* Text color */
+    font-family: Arial, sans-serif; /* Choose appropriate font */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #333; /* Dark background to contrast with crimson */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+}
+
+.name {
+    text-align: center; /* Center align the name */
+    margin-bottom: 20px;
+}
+
+.name h1 {
+    font-size: 28px; /* Adjust font size as needed */
+}
+
+.image img {
+    display: block; /* Ensure image is a block element */
+    margin: 0 auto; /* Center align the image */
+    max-width: 100%; /* Make sure image doesn't exceed container width */
+    height: auto;
+    border-radius: 10px; /* Rounded corners for images */
+}
+
+.desc {
+    text-align: justify; /* Justify align the description */
+}
+
+.desc p {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    line-height: 1.5em;
+    font-size: 1.5em;
+}
+
+button {
+    background-color: gold; /* Button color */
+    color: crimson; /* Text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: black; /* Change color on hover */
+    color: gold;
+}

@@ -1,0 +1,89 @@
+/* Reset default margin and padding */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply crimson theme */
+body {
+    background-color: crimson;
+    color: white; /* Text color */
+    font-family: Arial, sans-serif; /* Choose appropriate font */
+}
+.home{
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #333; /* Dark background to contrast with crimson */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Rounded corners for images */
+    margin-right: 5px;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.title h1 {
+    font-size: 28px; /* Adjust font size as needed */
+}
+
+.jonor p {
+    margin-bottom: 8px;
+}
+
+
+button {
+    background-color: gold; /* Button color */
+    color: crimson; /* Text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: black; /* Change color on hover */
+    color: gold;
+}
+
+a {
+    text-decoration: none; /* Remove underline from links */
+    color: gold; /* Link color */
+}
+
+a:hover {
+    color: white; /* Change color on hover */
+}
+.description
+{
+    height: 700px;
+    width: 700px;
+    margin-left: 10px;
+}
+.synopsis{
+    height: 100%;
+    margin-top: 20px;
+    width: 100%;
+    line-height: 2em;
+}
+.home button{
+    margin-left: 2px;
+    margin-top: 2px;
+}
